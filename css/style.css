@@ -5,9 +5,13 @@
 }
 
 .nav-up-fixed{
-    background-color: cornflowerblue;
-    height: 10px;
+    background-color: rgb(92, 84, 84);
+    height: 10%;
     position: fixed;
+    color: aliceblue;
+    width: 100%;
+    margin-left: 10%;
+    opacity: 80%;
     
 }
 
@@ -21,6 +25,7 @@ main{
     background-color: black;
     width: 10vw;
     height: 100vh;
+    position: relative;
    
 }
 
