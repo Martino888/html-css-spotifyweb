@@ -4,40 +4,44 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+}
+/*banner fixed contenuto in un div con main e footer  */
 
 .bar-up-fixed{
     height: 3.5rem;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     justify-content: flex-end;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: .5em;
-    padding-bottom: .5em;
+}
+
+.margin-btn{
+    padding-top: 1em;
 }
 
 .btn-up{
     border-radius: 3em;
-    padding: .5em ;
-    padding-left: 1em ;
+    padding: 0.5em 2em 0.5em 2em;
     background-color: transparent;
     color: white;
     border: 1px solid;
-    
-
+    font-size: x-small;
 }
+
 
 .wrapper{
     height: calc(100vh - 7rem);
     color: white;
-    overflow-y: auto;
+    overflow-y: hidden;
     padding-left:  4.5rem;
     background-color: rgb(50, 58, 71);
 }
-
+/* barra nera sinistra con all'interno icone e playlist con scroll */
 .header{
-    width: 3.5rem;
+    width: 12rem;
     position: absolute;
     top:0;
     left: 0;
@@ -45,6 +49,97 @@
     background-color: black;
     z-index: 1;
 }
+
+.logo-spotify{
+    padding: .3em;
+}
+
+.img-log{
+    padding: 8px 46px 18px 14px;
+}
+
+.items-header{
+    list-style: none;
+    display: flex;
+    
+}
+
+.color-size{
+    width: 40px;
+    padding-left: 15px;
+    
+}
+
+.white{
+    color: white;
+    text-decoration-line: none;
+}
+
+.grey{
+    text-decoration-line: none;
+    color: gray;
+    font-size: x-small;
+}
+
+.float-R{
+    float: right;
+    font-size: x-small;
+    padding-left: .5em;
+}
+
+h6{
+    padding: 9px 0px 0px 16px;
+}
+
+.fa-plus{
+    background-color: grey;
+    width: 2em;
+    height: 2em;
+    padding: 9px;
+}
+
+.plus{
+    padding: 15px;
+}
+
+.playlist{
+    overflow-x: auto;
+}
+
+.NPlay{
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.end-bar{
+    
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.hr{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.jd{
+    color: white;
+    font-size: x-small;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .footer{
