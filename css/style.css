@@ -8,6 +8,35 @@ html{
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
 }
+/* CLASSI COMUNI IN VARI ELEMENTI   */
+.grey{
+    text-decoration-line: none;
+    color: gray;
+    font-size: x-small;
+    list-style: none;
+}
+
+.white{
+    color: white;
+    text-decoration-line: none;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.foto-size{
+    width: auto;
+    padding: 1em;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
 /*banner fixed contenuto in un div con main e footer  */
 
 .bar-up-fixed{
@@ -20,6 +49,7 @@ html{
 
 .margin-btn{
     padding-top: 1em;
+    padding-right: 1em;
 }
 
 .btn-up{
@@ -35,19 +65,23 @@ html{
 .wrapper{
     height: calc(100vh - 7rem);
     color: white;
-    overflow-y: hidden;
-    padding-left:  4.5rem;
-    background-color: rgb(50, 58, 71);
+    overflow-y: auto;
+    padding-right: 1.5em;
+    padding-left: 13.5rem;
+    padding-top: 0.5em;
+    background-color: #141922;
 }
 /* barra nera sinistra con all'interno icone e playlist con scroll */
 .header{
     width: 12rem;
+    height: calc(100% - 3.5em);
     position: absolute;
     top:0;
     left: 0;
     bottom: 0;
     background-color: black;
     z-index: 1;
+    
 }
 
 .logo-spotify{
@@ -64,22 +98,18 @@ html{
     
 }
 
+.line-home{
+    border: solid 1px chartreuse;
+    background: chartreuse;
+}
+
 .color-size{
     width: 40px;
     padding-left: 15px;
     
 }
 
-.white{
-    color: white;
-    text-decoration-line: none;
-}
 
-.grey{
-    text-decoration-line: none;
-    color: gray;
-    font-size: x-small;
-}
 
 .float-R{
     float: right;
@@ -103,7 +133,9 @@ h6{
 }
 
 .playlist{
-    overflow-x: auto;
+    height: calc(100% - 18em);
+    width: 100%;
+    overflow: auto;
 }
 
 .NPlay{
@@ -111,8 +143,11 @@ h6{
     padding-left: 15px;
 }
 
+.bottom-nav{
+    margin-bottom: auto;
+}
+
 .end-bar{
-    
     margin-left: 10px;
     padding: 5px;
 }
@@ -129,6 +164,26 @@ h6{
     padding-left: 15px;
 }
 
+/*main--- list-+-tre sezioni con foto e titolo  */
+
+.list-main{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.li-up{
+    padding-left: 1em;
+    font-weight: bold;
+}
+
+.line-green{
+    border: solid 1px chartreuse;
+    background-color: chartreuse;
+    width: 2em;
+    margin: 3px 40px;
+}
 
 
 
@@ -139,15 +194,23 @@ h6{
 
 
 
-
-
-
-.footer{
+footer{
     height: 3.5rem;
     width: 100%;
-    background-color: grey;
+    bottom:0;
+    left:0;
+    background-color: #282828;
     position: relative;
     z-index: 2;
+    overflow: hidden;
+}
+/* sezione div ft-left*/
+.foto-snt{
+    width: 40px;
+}
+
+.text-snt{
+    font-size: small;
 }
 
 

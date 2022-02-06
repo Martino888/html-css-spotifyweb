@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +17,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
-<body> 
+
+<body>
     <!-- bar left-logo/home/cerca/libr -->
     <header class="header">
         <div class="logo-spotify">
@@ -25,13 +27,17 @@
         <div class="items-list">
             <ul>
                 <li class="items-header">
-                    <a class="white" href="#!"><img class="color-size" src="img/home.svg" alt="Home"> <span class="float-R">Home</span> </a>
+                    <div class="line-home"></div>
+                    <a class="white" href="#!"><img class="color-size" src="img/home.svg" alt="Home"> <span
+                            class="float-R">Home</span> </a>
                 </li>
                 <li class="items-header">
-                    <a class="grey" href="#!"><img class="color-size" src="img/search.svg" alt="search"><span class="float-R">Cerca</span> </a>
+                    <a class="grey" href="#!"><img class="color-size" src="img/search.svg" alt="search"><span
+                            class="float-R">Cerca</span> </a>
                 </li>
                 <li class="items-header">
-                    <a class="grey" href="#!"><img class="color-size" src="img/libreria.svg" alt="Libreria"><span class="float-R">La tua libreria</span> </a>
+                    <a class="grey" href="#!"><img class="color-size" src="img/libreria.svg" alt="Libreria"><span
+                            class="float-R">La tua libreria</span> </a>
                 </li>
             </ul>
         </div>
@@ -42,49 +48,52 @@
             <span class="grey">Crea Playlist</span>
         </div>
         <!-- ELENCO PLAYLIST -->
-        <div >
-            <ul class="playlist">
+        <div class="playlist">
+            <ul>
                 <li class="NPlay">
                     <a class="grey play" href="#!">
-                        Nuova Playlist
+                        Nome Playlist
                     </a>
                 </li>
                 <li class="NPlay">
                     <a class="grey play" href="#!">
-                        Nuova Playlist
+                        Nome Playlist
                     </a>
                 </li>
                 <li class="NPlay">
                     <a class="grey play" href="#!">
-                        Nuova Playlist
+                        Nome Playlist
                     </a>
                 </li>
                 <li class="NPlay">
                     <a class="grey play" href="#!">
-                        Nuova Playlist
+                        Nome Playlist
                     </a>
                 </li>
                 <li class="NPlay">
                     <a class="grey play" href="#!">
-                        Nuova Playlist
+                        Nome Playlist
                     </a>
                 </li>
                 <li class="NPlay">
                     <a class="grey play" href="#!">
-                        Nuova Playlist
+                        Nome Playlist
                     </a>
                 </li>
             </ul>
         </div>
-<!--parte finale della barra sinistara  istalla-app/jdoe-->
-        <div class="end-bar">
-            <i class="fas fa-arrow-circle-down grey"> Istalla app</i>
-        </div>
-        <hr class="hr">
-        <div>
-            <i class="fas fa-user-astronaut jd">John Doe</i>
+        <!--parte finale della barra sinistara  istalla-app/jdoe-->
+        <div class="bottom-nav">
+            <div class="end-bar">
+                <i class="fas fa-arrow-circle-down grey"> Istalla app</i>
+            </div>
+            <hr class="hr">
+            <div>
+                <i class="fas fa-user-astronaut jd">John Doe</i>
+            </div>
         </div>
     </header>
+    <!--bar-fixed up -->
     <div class="bar-up-fixed">
         <div class="margin-btn">
             <button class="btn-up">
@@ -92,12 +101,118 @@
             </button>
         </div>
     </div>
-    
+    <!--main con foto e titoli -->
     <main class="wrapper">
-        
+        <!--Lista main superiore -->
+        <nav>
+            <ul class="list-main">
+                <li>
+                    <a class="grey li-up" href="#!">
+                        IN EVIDENZA
+                    </a>
+                    <div class="line-green"></div>
+                </li>
+                <li>
+                    <a class="grey li-up" href="#!">
+                        PODCAST
+                    </a>
+                </li>
+                <li>
+                    <a class="grey li-up" href="#!">
+                        CLASSIFICHE
+                    </a>
+                </li>
+                <li>
+                    <a class="grey li-up" href="#!">
+                        GENERI E MOOD
+                    </a>
+                </li>
+                <li>
+                    <a class="grey li-up" href="#!">
+                        NUOVE USCITE
+                    </a>
+                </li>
+                <li>
+                    <a class="grey li-up" href="#!">
+                        SCOPRI
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Recently Played</h1>
+        <div class="flexbox">
+            <div class="img-container foto-size">
+                <img src="img/metal_lifting.jpg" alt="">
+                <a class="white" href="">
+                    <h3>Heavy Metal</h3>
+                </a>
+                <a class="grey" href="">
+                    <h4>Subtitle</h4>
+                </a>
+            </div>
+            <div class="img-container foto-size">
+                <img src="img/stranger.jpeg" alt="">
+                <a class="white" href="">
+                    <h3>Stranger Things. Vol.1 (a Netflix Original Series Soundtrack)</h3>
+                </a>
+                <a class="grey" href="">
+                    <h4>Kyle Dixon &amp; Michael Stain</h4>
+                </a>
+            </div>
+            <div class="img-container foto-size">
+                <img src="img/aquietplace.jpeg" alt="">
+                <a class="white" href="">
+                    <h3>A quiet place</h3>
+                </a>
+                <a class="grey" href="">
+                    <h4>Subtitle</h4>
+                </a>
+            </div>
+            <div class="img-container foto-size">
+                <img src="img/split.jpeg" alt="">
+                <a class="white" href="">
+                    <h3>Split</h3>
+                </a>
+                <a class="grey" href="">
+                    <h4>Subtitle</h4>
+                </a>
+            </div>
+            <div class="img-container foto-size">
+                <img src="img/cure.jpeg" alt="">
+                <a class="white" href="">
+                    <h3>A cure for wellness</h3>
+                </a>
+                <a class="grey" href="">
+                    <h4>Subtitle</h4>
+                </a>
+            </div>
+            <div class="img-container foto-size">
+                <img src="img/sinister.jpeg" alt="">
+                <a class="white" href="">
+                    <h3>Sinister</h3>
+                </a>
+                <a class="grey" href="">
+                    <h4>Subtitle</h4>
+                </a>
+            </div>
+        </div>
     </main>
-    <footer class="footer">
-        
+    <footer>
+        <div class="ft-left flexbox">
+            <img class="foto-snt" src="img/sinister.jpeg" alt="Sinister">
+            <div>
+                <span class="white bold text-snt ">Sinister</span>
+                <span class="grey">Brano Nome</span>
+            </div>
+            <div>
+                <i class="far fa-heart grey"></i>
+                <i class="far fa-folder grey"></i>
+            </div>
+        </div>
+        <div class="ft-center"></div>
+        <div class="ft-right"></div>
+        </div>
     </footer>
 </body>
+
 </html>
