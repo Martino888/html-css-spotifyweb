@@ -207,6 +207,7 @@ footer{
     position: relative;
     z-index: 2;
     overflow: hidden;
+    justify-content: space-between;
 }
 /* sezione div ft-left*/
 .foto-snt{
@@ -223,6 +224,15 @@ footer{
     display: flex;
     flex-direction: column;
     padding-left: 0.3em;
+}
+
+.margin-icon{
+    margin-left: 2em;
+}
+/* footer centrale */
+
+.ft-centre{
+    justify-content: space-between;
     
 }
 
