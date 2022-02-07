@@ -197,7 +197,7 @@ h6{
 
 
 
-
+/*footer-+-tre sezioni con icone e barre  */
 footer{
     height: 3.5rem;
     width: 100%;
@@ -237,5 +237,23 @@ footer{
 }
 
 
+/* footer right */
+.bar-ex{
+    width: 150px;
+    height: 3px;
+    border-radius: 100px;
+    background-color: grey;
+    padding: 1px;
+    margin: 7px;
+    display: inline-block;
+}
 
+.bar-in{
+    background-color: chartreuse;
+    width: 25%;
+    height: 2px;
+}
 
+.circle-in{
+    
+}
