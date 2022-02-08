@@ -403,7 +403,8 @@ footer{
 
     .img-log-small{
         display:inline-block ;
-        size: 1;
+        padding: 0.5em;
+        margin-top: -37px;
     }
 
     .playlist{
@@ -411,7 +412,8 @@ footer{
     }
 
     .color-size{
-        padding-left: 0px;
+        margin-left: 48px;
+        padding: 0;
     }
 
     .foto-size{
