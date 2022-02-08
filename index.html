@@ -23,32 +23,33 @@
     <header class="header">
         <div class="logo-spotify">
             <img class="img-log" src="img/logo.svg" alt="logo">
+            <img class="img-log-small " src="img/logo-small.svg" alt="logo">
         </div>
         <div class="items-list">
             <ul>
                 <li class="items-header">
-                    <div class="line-home"></div>
+                    <div class="line-home none"></div>
                     <a class="white" href="#!"><img class="color-size" src="img/home.svg" alt="Home"> <span
-                            class="bold">Home</span> </a>
+                            class="bold none">Home</span> </a>
                 </li>
                 <li class="items-header">
-                    <a class="grey" href="#!"><img class="color-size" src="img/search.svg" alt="search"><span
-                            class="bold">Cerca</span> </a>
+                    <a class="grey" href="#!"><img class="color-size" src="img/search.svg" alt="search"><span 
+                            class="bold none">Cerca</span> </a>
                 </li>
                 <li class="items-header">
                     <a class="grey" href="#!"><img class="color-size" src="img/libreria.svg" alt="Libreria"><span
-                            class="bold">La tua libreria</span> </a>
+                            class="bold none">La tua libreria</span> </a>
                 </li>
             </ul>
         </div>
         <!-- PLAYLIST -->
-        <h6 class="white">PLAYLIST</h6>
-        <div class="plus ">
+        <h6 class="white none">PLAYLIST</h6>
+        <div class="plus none">
             <i class="fas fa-plus eft-3"></i>
             <a class="grey bold">Crea Playlist</a>
         </div>
         <!-- ELENCO PLAYLIST -->
-        <div class="playlist">
+        <div class="playlist none">
             <ul>
                 <li class="NPlay">
                     <a class="grey play bold" href="#!">
@@ -85,11 +86,11 @@
         <!--parte finale della barra sinistara  istalla-app/jdoe-->
         <div class="bottom-nav">
             <div class="end-bar">
-            <a class="grey" href=""><i class="fas fa-arrow-circle-down "> Istalla app</a></i>
+                <a class="grey" href=""><i class="fas fa-arrow-circle-down "></i><span class="none">Istalla app</span></a>
             </div>
-            <hr class="hr">
+            <hr class="hr none">
             <div>
-                <i class="fas fa-user-astronaut jd">M.Martino</i>
+                <i class="fas fa-user-astronaut jd "></i> <span class="none">M.Martino</span> 
             </div>
         </div>
     </header>
@@ -141,7 +142,7 @@
         </nav>
         <!--sezione Recently Played -->
         <h3>Recently Played</h3>
-        <div class="flexbox">
+        <div class="flexbox media-foto">
             <div class="img-container foto-size">
                 <img src="img/metal_lifting.jpg" alt="">
                 <a class="white" href="">
@@ -199,30 +200,38 @@
             </div>
         </div>
         <!--Sezione creato per John Doe-->
-            <h3>Creato per John Doe </h3>
-            <span class="grey bold">Più ascolti, più accurati saranno i suggerimenti.</span>
+        <h3>Creato per John Doe </h3>
+        <span class="grey bold">Più ascolti, più accurati saranno i suggerimenti.</span>
         <div class="flexbox">
             <div class="img-container foto-size">
                 <img src="img/radar.jpeg" alt="Radar">
-                <a class="white" href=""><h5>Release Radar</h5> </a>
+                <a class="white" href="">
+                    <h5>Release Radar</h5>
+                </a>
             </div>
             <div class="img-container foto-size">
                 <img src="img/mixdaily.jpeg" alt="mix1">
-                <a class="white" href=""><h5>Daily Mix 1</h5> </a>
+                <a class="white" href="">
+                    <h5>Daily Mix 1</h5>
+                </a>
             </div>
         </div>
         <!--Artisti più Popolari-->
         <h3>Artisti più Popolari</h3>
         <span class="grey bold">Più ascolti, più accurati saranno i suggerimenti.</span>
-        <div class="flexbox" >
-            <div class="img-container foto-size">                
+        <div class="flexbox">
+            <div class="img-container foto-size">
                 <img class="radius" src="img/youg.jpeg" alt="Lana Ray">
-                <a class="white" href=""><h5>Young and beautiful</h5></a>
+                <a class="white" href="">
+                    <h5>Young and beautiful</h5>
+                </a>
                 <a class="grey bold">Lana Ray</a>
             </div>
             <div class="img-container foto-size">
                 <img class="radius" src="img/einaudi.jpeg" alt="Lana Ray">
-                <a class="white" href=""><h5>Einaudi</h5></a>
+                <a class="white" href="">
+                    <h5>Einaudi</h5>
+                </a>
                 <a class="grey bold">Subtitle</a>
             </div>
         </div>
@@ -244,31 +253,32 @@
             <div class="player">
                 <i class="fas fa-random white"></i>
                 <i class="fas fa-step-backward white"></i>
-                <i class="fas fa-play-circle white circle-ft"></i>
+                <i class="far fa-play-circle white circle-ft"></i>
                 <i class="fas fa-step-forward white"></i>
                 <i class="fas fa-redo white"></i>
             </div>
-            <div>
+            <div class="flexbox">
                 <span class="white bold">0:25</span>
                 <div class="bar-ex-C">
-                    <div class="bar-in-C"><div class="circle-in-C"></div></div>
+                    <div class="bar-in-C">
+                        <div class="circle-in-C">
+                        </div>
+                    </div>
                 </div>
                 <span class="white bold">4:35</span>
             </div>
         </div>
         <div class="ft-right flexbox">
-            <div >
+            <div class="flexbox">
                 <i class="fas fa-bars white"></i>
-                <i class="fas fa-desktop white"></i>
+                <i class="fas fa-desktop white padd-r-l"></i>
                 <i class="fas fa-volume-up white"></i>
                 <div class="bar-ex flexbox">
                     <div class="bar-in">
-                        <div class="circle-in">
-                        </div>
+                        <div class="circle-in"></div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </footer>
 </body>

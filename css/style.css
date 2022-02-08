@@ -126,6 +126,9 @@ a:hover{
     bottom: 0;
     background-color: black;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo-spotify{
@@ -134,6 +137,10 @@ a:hover{
 
 .img-log{
     padding: 8px 46px 18px 14px;
+}
+
+.img-log-small{
+    display: none;
 }
 
 .items-header{
@@ -185,7 +192,7 @@ h6{
 }
 
 .bottom-nav{
-    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .end-bar{
@@ -215,15 +222,14 @@ h6{
 }
 
 .li-up{
-    padding-left: 1em;
+    padding: 1em;
     font-weight: bold;
 }
 
 .line-green{
     border: solid 1px chartreuse;
     background-color: chartreuse;
-    width: 2em;
-    margin: 3px 40px;
+    margin: 0px 47px;
 }
 /*footer-+-tre sezioni con icone e barre  */
 footer{
@@ -278,7 +284,7 @@ footer{
 }
 
 .bar-ex-C{
-    width: 300px;
+    width: 26vw;
     height: 3px;
     border-radius: 100px;
     background-color: grey;
@@ -288,9 +294,12 @@ footer{
 }
 
 .bar-in-C{
-    background-color: chartreuse;
+    background-color: whitesmoke;
     width: 25%;
     height: 2px;
+}
+.bar-in-C:hover{
+    background-color: chartreuse;
 }
 
 .circle-in-C{
@@ -303,17 +312,27 @@ footer{
     border-radius: 50%;
     cursor: pointer;
     position: relative;
+    display: none;
+}
+
+.bar-ex-C:hover .circle-in-C{
+    display: block;
 }
 
 
 /* footer right */
 
 .ft-right{
-    padding-top: 1.5em;
+    padding-top: 1.4em;
+}
+
+.padd-r-l{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .bar-ex{
-    width: 150px;
+    width: 10vw;
     height: 3px;
     border-radius: 100px;
     background-color: grey;
@@ -323,9 +342,17 @@ footer{
 }
 
 .bar-in{
-    background-color: chartreuse;
+    background-color: whitesmoke;
     width: 25%;
-    height: 2px;
+    height: 2px;   
+}
+
+.bar-ex:hover .circle-in{
+    display: block;
+}
+
+.bar-in:hover{
+    background-color: chartreuse;
 }
 
 .circle-in{
@@ -338,4 +365,40 @@ footer{
     border-radius: 50%;
     cursor: pointer;
     position: relative;
+    display: none;
 }
+
+/* elementi in display none per vari media */
+
+
+
+/* MEDIA QUERY*/
+
+@media screen and ( max-width:600px) {
+    .header{
+        width: 70px;
+    }
+
+    .in-main{
+        padding-left: 80px;
+    }
+    .none{
+        display: none;
+    }
+
+    .img-log-small{
+        display:inline-block ;
+        size: 1;
+    }
+
+    .playlist{
+        display: none;
+    }
+
+    .color-size{
+        padding-left: 0px;
+    }
+
+    .bottom-nav{
+        bottom: ;
+    }
