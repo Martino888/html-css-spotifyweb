@@ -151,6 +151,8 @@ a:hover{
 .line-home{
     border: solid 1px chartreuse;
     background: chartreuse;
+    margin-left: -10px;
+    margin-right: 7px;
 }
 
 .items-list{
@@ -160,7 +162,6 @@ a:hover{
 .color-size{
     width: 40px;
     padding-left: 15px;
-    
 }
 
 .float-R{
@@ -170,8 +171,9 @@ a:hover{
 }
 
 h6{
-    padding: 9px 0px 0px 16px;
+    padding: 9px 88px 0px 0px;
 }
+
 
 .fa-plus{
     background-color: grey;
@@ -182,7 +184,7 @@ h6{
 
 .plus{
     padding: 15px;
-    margin-left: -50px;
+    margin-left: -26px;
 }
 
 .playlist{
@@ -193,11 +195,12 @@ h6{
 
 .NPlay{
     padding: 5px;
-    padding-left: 15px;
+    padding-left: 28px;
 }
 
 .bottom-nav{
     margin-top: auto;
+    width: 185px;
 }
 
 .end-bar{
@@ -384,7 +387,7 @@ footer{
             flex-wrap: wrap;
         }
         .foto-size{
-            flex-basis: calc(100% / 4);
+            flex-basis: calc(100% / 4 -1px);
         }
 }
 
@@ -418,6 +421,27 @@ footer{
 
     .foto-size{
         flex-basis: calc(100% / 2);
+    }
+
+    .margin-icon{
+        margin-left: auto;
+    }
+
+    .bottom-nav {
+        margin-top: auto;
+        width: 45px;
+    }
+    
+    .player {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0.5em;
+        padding-left: .2em;
+        padding-right: .2em;
+    }
+
+    .ft-right {
+        padding-left: 7px;
     }
 }
 
